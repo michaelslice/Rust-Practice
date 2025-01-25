@@ -41,10 +41,11 @@ pub mod enums {
     // The if let Syntax
     // The if let construct provides a simpler way to handle scenarios 
     // where we only care about matching one specific pattern.
-    static config_max = Some(3u8);
-    if let Some(max) = config_max {
-        println!("The maximum is configured to be {max}");
-    }
+    
+    // static config_max = Some(3u8);
+    // if let Some(max) = config_max {
+    //     println!("The maximum is configured to be {max}");
+    // }
 
     // Key Points:
     // 1. Enums allow defining a type with a set of variants.
